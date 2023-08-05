@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "*.s": "arm",
+        "cat_list.h": "c",
+        "cat_device.h": "c",
+        "catos_types.h": "c",
+        "catos_config.h": "c",
+        "stm32f1xx.h": "c",
+        "port.h": "c",
+        "stm32f1xx_hal.h": "c",
+        "bsp_board_led.h": "c",
+        "catos.h": "c",
+        "cat_task.h": "c",
+        "cat_basic_task.h": "c",
+        "hal_data.h": "c",
+        "cat_drv_uart.h": "c",
+        "cmb_en_us.h": "c",
+        "cat_stdio.h": "c",
+        "cat_sp_task.h": "c",
+        "cat_shell.h": "c",
+        "string.h": "c",
+        "cat_bitmap.h": "c",
+        "cat_string.h": "c",
+        "complex": "c",
+        "cat_scheduler.h": "c",
+        "static_prio_sched.h": "c",
+        "cat_shell_port.h": "c",
+        "cat_task_types.h": "c"
+    }
+}
