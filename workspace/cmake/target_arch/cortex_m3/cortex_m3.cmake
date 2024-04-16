@@ -1,7 +1,8 @@
-include(${TOOL_CHAIN_DIR}/gcc-arm-none-eabi.cmake)
 
 set(CMAKE_SYSTEM_NAME               Generic)
 set(CMAKE_SYSTEM_PROCESSOR          arm)
+
+include(${TOOL_CHAIN_DIR}/gcc-arm-none-eabi.cmake)
 
 # MCU specific flags
 set(TARGET_FLAGS "-mcpu=cortex-m3 ")
