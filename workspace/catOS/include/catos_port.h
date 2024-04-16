@@ -1,7 +1,7 @@
 /**
- * @file catos.h
+ * @file catos_port.h
  * @author 文佳源 (648137125@qq.com)
- * @brief catOS 用户接口
+ * @brief 可移植接口
  * @version 0.1
  * @date 2024-04-10
  * 
@@ -13,10 +13,3 @@
  * <tr><td>v1.0 <td>文佳源 <td>2024-04-10 <td>内容
  * </table>
  */
-
-#ifndef CATOS_H
-#define CATOS_H
-
-#include "catos_types.h"
-
-#endif
