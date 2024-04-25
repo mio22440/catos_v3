@@ -17,6 +17,7 @@
 #ifndef CATOS_H
 #define CATOS_H
 
+#include "catos_config.h"
 #include "catos_types.h"
 
 #endif

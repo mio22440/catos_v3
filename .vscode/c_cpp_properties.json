@@ -4,12 +4,19 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/workspace/catOS/src/component/cat_device"
+                "${workspaceFolder}/workspace/lib/CMSIS/Core/Include",
+                "${workspaceFolder}/workspace/lib/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceFolder}/workspace/lib/STM32F1xx_HAL_Driver",
+                "${workspaceFolder}/workspace/lib/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceFolder}/workspace/projects/blink/include",
+                "${workspaceFolder}/workspace/projects/blink/src"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F103xB"
             ],
             "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
             "cStandard": "c11",

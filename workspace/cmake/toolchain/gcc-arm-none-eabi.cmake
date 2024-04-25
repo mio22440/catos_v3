@@ -25,6 +25,8 @@ else()
     set(CMAKE_SIZE                      ${TOOLCHAIN_PREFIX}size)
 endif()
 
+message("toolchain is set to gcc-arm-none-eabi")
+
 set(CMAKE_EXECUTABLE_SUFFIX_ASM     ".elf")
 set(CMAKE_EXECUTABLE_SUFFIX_C       ".elf")
 set(CMAKE_EXECUTABLE_SUFFIX_CXX     ".elf")

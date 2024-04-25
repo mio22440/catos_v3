@@ -13,7 +13,7 @@ target_compile_definitions(specified_project INTERFACE
 )
 
 target_include_directories(specified_project INTERFACE
-    Inc
+    include
     Drivers/STM32F1xx_HAL_Driver/Inc
     Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
     Drivers/CMSIS/Device/ST/STM32F1xx/Include
@@ -21,11 +21,11 @@ target_include_directories(specified_project INTERFACE
 )
 
 target_sources(specified_project INTERFACE
-    main.c
-    gpio.c
-    usart.c
-    stm32f1xx_it.c
-    stm32f1xx_hal_msp.c
+    src/main.c
+    src/gpio.c
+    src/usart.c
+    src/stm32f1xx_it.c
+    src/stm32f1xx_hal_msp.c
     Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
     Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
     Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
@@ -40,10 +40,10 @@ target_sources(specified_project INTERFACE
     Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
     Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
     Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-    system_stm32f1xx.c
-    sysmem.c
-    syscalls.c
-    startup_stm32f103xe.s
+    src/system_stm32f1xx.c
+    src/sysmem.c
+    src/syscalls.c
+    src/startup_stm32f103xe.s
 )
 
 target_link_directories(specified_project INTERFACE
