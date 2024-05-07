@@ -8,8 +8,9 @@
                 "${workspaceFolder}/workspace/lib/CMSIS/Device/ST/STM32F1xx/Include",
                 "${workspaceFolder}/workspace/lib/STM32F1xx_HAL_Driver",
                 "${workspaceFolder}/workspace/lib/STM32F1xx_HAL_Driver/Inc",
-                "${workspaceFolder}/workspace/projects/blink/include",
-                "${workspaceFolder}/workspace/projects/blink/src"
+                "${workspaceFolder}/workspace/1-blink/projects/blink/include",
+                "${workspaceFolder}/workspace/1-blink/projects/blink/src",
+                "${workspaceFolder}/workspace/2-create_task/projects/create_task/include"
             ],
             "defines": [
                 "_DEBUG",
